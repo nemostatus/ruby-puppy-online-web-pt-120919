@@ -12,4 +12,5 @@ class Dog
     @@all.map{|x|puts x}
   end
   def self.clear_all
+    @@all
 end
