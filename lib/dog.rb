@@ -7,7 +7,7 @@ class Dog
  save
   end
   def self.all 
-   save
+    @@all 
   end
   def self.print_all
     @@all.map{|x|puts x}
