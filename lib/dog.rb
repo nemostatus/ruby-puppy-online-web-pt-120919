@@ -12,5 +12,5 @@ class Dog
     @@all.map{|x|puts x}
   end
   def save 
-    
+    @@all << self
 end
