@@ -9,5 +9,5 @@ class Dog
     @@all
   end
   def self.print_all
-    @@all.map{|x|
+    @@all.map{|x|puts x}
 end
