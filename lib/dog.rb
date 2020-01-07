@@ -13,7 +13,7 @@ class Dog
      
     @@all.map{|x|puts @name}
   end 
-  end
+  
   def self.clear_all
    @@all.clear
 end
