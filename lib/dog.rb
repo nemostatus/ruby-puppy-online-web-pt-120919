@@ -11,7 +11,7 @@ class Dog
   end
   def self.print_all
      
-    @@all.map{|x|puts x}
+    @@all.map{|x|puts if x == object_id puts @name}
   end
   def self.clear_all
    @@all.clear
