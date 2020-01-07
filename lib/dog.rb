@@ -10,7 +10,7 @@ class Dog
     @@all 
   end
   def self.print_all
-    @@all << name 
+     
     @@all.map{|x|puts x}
   end
   def self.clear_all
