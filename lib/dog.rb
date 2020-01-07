@@ -10,4 +10,6 @@ class Dog
   end
   def self.print_all
     @@all.map{|x|puts x}
+  end
+  def 
 end
