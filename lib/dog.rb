@@ -11,5 +11,6 @@ class Dog
   def self.print_all
     @@all.map{|x|puts x}
   end
-  def 
+  def save 
+    
 end
