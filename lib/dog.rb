@@ -3,13 +3,13 @@ class Dog
   @@all = []
   def initialize(name)
     @name = name 
- @@all << self
+ @@all << name
   end
   def self.all 
     @@all 
   end
   def self.print_all
-    @@all.map{|x|puts @name}
+    @@all.map{|x|puts x}
   end
   def self.clear_all
    @@all.clear
